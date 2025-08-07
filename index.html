@@ -4,22 +4,14 @@
     <title>CSS_HW4</title>
     <link href="styles.css" rel="stylesheet" />
     <style>
-      .card1 {
-        max-width: 400px;
-        border: 1px solid darkgray;
-        padding: 1rem;
+      .card3 {
         display: flex;
         flex-direction: column;
+        align-items: center;
       }
-      .inputField-style1 {
-        padding: 0.3rem;
-      }
-      .card1 button {
-        background-color: rgb(95, 90, 90);
-        border-color: rgb(95, 90, 90);
-        border-radius: 3px;
-        color: white;
-        padding: 3px;
+      .card3 ul {
+        display: flex;
+        list-style: none;
       }
     </style>
   </head>
@@ -33,9 +25,42 @@
       <input class="inputField-style1" id="email" type="email" email="email" />
       <br />
       <label for="message">Message:</label>
-      <textarea id="message" type="text" rows="5" message="message"></textarea>
+      <textarea
+        class="textArea-style1"
+        id="message"
+        type="text"
+        rows="5"
+        message="message"
+      ></textarea>
       <br />
       <button>Submit</button>
     </div>
+
+    <h1>----------Answer 2----------</h1>
+    <div class="card2">
+      <h2>Login</h2>
+      <div>
+        <label class="labble-style1" for="email">Email</label>
+        <br />
+        <input class="input-style2" id="email" type="email" email="email" />
+        <br /><br />
+      </div>
+
+      <div>
+        <label class="labble-style1" for="password">Password</label>
+        <br />
+        <input
+          class="input-style2"
+          id="password"
+          type="text"
+          password="password"
+        />
+        <br /><br />
+      </div>
+      <button>Login</button>
+      <p>Forgot Password?</p>
+    </div>
+
+
   </body>
 </html>

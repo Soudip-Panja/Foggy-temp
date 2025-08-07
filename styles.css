@@ -1,0 +1,53 @@
+/* Answer 1 */
+.card1 {
+  max-width: 400px;
+  border: 1px solid darkgray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.inputField-style1 {
+  padding: 0.3rem;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.textArea-style1 {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.card1 button {
+  background-color: rgb(95, 90, 90);
+  border: 1px solid rgb(95, 90, 90);
+  border-radius: 3px;
+  color: white;
+  padding: 3px;
+}
+
+/* Answer 2 */
+.card2 {
+  width: 300px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.labble-style1 {
+  font-weight: bold;
+}
+.input-style2 {
+  padding: 0.3rem;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.card2 p {
+  color: #0d6efd;
+}
+
+.card2 button {
+  background-color: #0d6efd;
+  color: white;
+  border: #0d6efd;
+  border-radius: 3px;
+  padding: 7px 58px;
+}
