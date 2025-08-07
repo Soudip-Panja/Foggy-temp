@@ -94,3 +94,82 @@
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Answer 4 */
+.subscription-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.card4 {
+  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.p1 {
+  border: 2px solid black;
+  padding: 0.5rem;
+  width: 90px;
+}
+.card4 h2 {
+  margin-block-end: 0px;
+}
+.p2 {
+  width: 110px;
+  text-align: center;
+  font-size: large;
+}
+.card4 ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  color: darkgray;
+  font-size: large;
+}
+.card4 button {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+/* Answer 5 */
+.order-card {
+  border: 8px solid lightgreen;
+  padding: 1rem;
+  max-width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.order-row {
+  display: flex;
+  justify-content: space-between;
+}
+.order-row p {
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+}
+.total-section {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.product-details {
+  width: 240px;
+}
+.order-card button {
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  background-color: lightgreen;
+  color: white;
+  font-size: larger;
+}
+.razorPay {
+  text-align: center;
+  font-style: italic;
+}
