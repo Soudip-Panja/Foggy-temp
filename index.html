@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS_HW4</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      .card1 {
+        max-width: 400px;
+        border: 1px solid darkgray;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .inputField-style1 {
+        padding: 0.3rem;
+      }
+      .card1 button {
+        background-color: rgb(95, 90, 90);
+        border-color: rgb(95, 90, 90);
+        border-radius: 3px;
+        color: white;
+        padding: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>----------Answer 1----------</h1>
+    <div class="card1">
+      <label for="name">Name:</label>
+      <input class="inputField-style1" id="name" type="text" name="name" />
+      <br />
+      <label for="email">Email:</label>
+      <input class="inputField-style1" id="email" type="email" email="email" />
+      <br />
+      <label for="message">Message:</label>
+      <textarea id="message" type="text" rows="5" message="message"></textarea>
+      <br />
+      <button>Submit</button>
+    </div>
+  </body>
+</html>
